@@ -4,8 +4,8 @@ This project is a Telegram bot that responds to user input using OpenAI's ChatGP
 ## Setup
 1. Create a Telegram bot using [@BotFather](https://t.me/BotFather) and get your API key.
 2. Copy a ChatGPT API Key (It can be obtained [here](https://platform.openai.com/account/api-keys)) 
-3. Clone this repository and create a `.env` file in the root directory.
-4. Add the following variables to the `.env` file: `BOT_TOKEN=...`, `CHATGPT_API_KEY=...` (Replace `...` with your API keys)
+3. Clone this repository.
+4. Rename `.env.example` to `.env` and fill in the values.
 5. Install dependencies using `npm i`
 6. Run the bot using `npm run start`
 
