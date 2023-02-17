@@ -1,0 +1,32 @@
+{
+  "name": "telegram-chatgpt",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This project is a Telegram bot that responds to user input using OpenAI's ChatGPT. Simply type your prompt as a message and ChatGPT will parse it and respond with a generated response.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l0wt/telegram-chatgpt.git"
+  },
+  "keywords": [],
+  "author": "lowtech (voxelin)",
+  "license": "GNU AFFERO GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/l0wt/telegram-chatgpt/issues"
+  },
+  "homepage": "https://github.com/l0wt/telegram-chatgpt#readme",
+  "dependencies": {
+    "@grammyjs/runner": "^1.0.4",
+    "chatgpt": "^4.4.1",
+    "dotenv": "^16.0.3",
+    "grammy": "^1.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}
