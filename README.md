@@ -24,5 +24,4 @@ This project is a Telegram bot that responds to user input using OpenAI's ChatGP
 ## Credits
 - [ChatGPT](https://chat.openai.com/) by [OpenAI](https://openai.com/)
 - [GrammyJS](https://grammy.dev/)
-- [Deno Deploy](https://dash.deno.com/)
 - [Navo](https://github.com/navopw) for the idea.
